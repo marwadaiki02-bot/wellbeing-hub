@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Premium gradient background */
+body {
+  @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+  @apply text-gray-100;
+}
