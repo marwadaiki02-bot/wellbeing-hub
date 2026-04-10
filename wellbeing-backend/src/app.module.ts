@@ -3,6 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
+import { WellbeingModule } from './wellbeing/wellbeing.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { AuthModule } from './auth/auth.module';
       synchronize: true, // auto create tables
     }),
     AuthModule,
+    WellbeingModule,
   ],
   controllers: [AppController],
   providers: [AppService],
