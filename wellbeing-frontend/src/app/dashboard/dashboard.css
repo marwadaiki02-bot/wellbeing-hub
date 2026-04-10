@@ -1,0 +1,7 @@
+/* Premium animations */
+aside {
+  transition: all 0.3s ease-in-out;
+}
+aside:hover {
+  width: 280px;
+}
